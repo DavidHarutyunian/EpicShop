@@ -78,12 +78,12 @@
               </div>
 
               <!--Navbar-->
-              <nav class="navbar navbar-expand-md navbar-secondary bg-secondary">
+              <nav class="row navbar navbar-expand-md navbar-dark bg-secondary">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
               
-                <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
                   <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="navDrop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       PC
@@ -170,31 +170,33 @@
 
       
       <!------Carousel------->
-      <div id="Carousel1" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#Carousel1" data-slide-to="0" class="active"></li>
-          <li data-target="#Carousel1" data-slide-to="1"></li>
-          <li data-target="#Carousel1" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Images/BMW.jpg" class="d-block w-100" alt="">
+      <div class="container">
+        <div id="Carousel1" class="carousel slide row" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#Carousel1" data-slide-to="0" class="active"></li>
+            <li data-target="#Carousel1" data-slide-to="1"></li>
+            <li data-target="#Carousel1" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Images/BMW.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/BugattiBlue.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/car3.jfif" class="d-block w-100" alt="">
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="Images/BugattiBlue.jpg" class="d-block w-100" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="Images/car3.jfif" class="d-block w-100" alt="">
-          </div>
+          <a class="carousel-control-prev" href="#Carousel1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#Carousel1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <a class="carousel-control-prev" href="#Carousel1" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#Carousel1" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
 
       
@@ -204,7 +206,7 @@
       <br><br>
 
       <!-----Cards----->
-        <div class="card col-3" style="width: 18rem;">
+        <div class="card col-12 col-md-3" style="width: 18rem;">
           <div>
             <img src="Images/MiNote10Pro.png" class="card-img-top" alt="">
           </div>
@@ -216,7 +218,7 @@
           </div>
         </div>
   
-        <div class="card col-3" style="width: 18rem;">
+        <div class="card col-12 col-md-3" style="width: 18rem;">
           <div >
             <img src="Images/SmartWatch.png" class="card-img-top" alt="">
           </div>
@@ -228,7 +230,7 @@
           </div>
         </div>
   
-        <div class="card col-3" style="width: 18rem;">
+        <div class="card col-12 col-md-3" style="width: 18rem;">
           <div class="mb-5">
             <img src="Images/DelldesktopPC.png" class="card-img-top" alt="">
           </div>
@@ -240,7 +242,7 @@
           </div>
         </div>
 
-        <div class="card col-3" style="width: 18rem;">
+        <div class="card col-12 col-md-3" style="width: 18rem;">
           <div class="mb-5">
             <img src="Images/HyundaiGenesis.png" class="card-img-top" alt="">
           </div>
