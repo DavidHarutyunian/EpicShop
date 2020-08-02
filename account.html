@@ -45,20 +45,23 @@
                   </div>
                   <div class="col-lg-2 d-none d-lg-block my-2">
                     <a type="button" href="wishlist.html" class="btn btn-light">
-                        <strong>Wishlist </strong><span class="badge badge-dark">4</span>
+                      <strong>Wishlist </strong><span class="badge badge-dark">4</span>
                     </a>
                   </div>
               </div>
 
               <!--HalfNav 2-->
               <div class="row navbar-dark bg-primary">
+                  <div class="col-2 my-auto">
+                    <a class="navbar-brand" href="#">My Account <span class="sr-only">(current)</span></a>
+                  </div>
                   <div class="col-1 my-auto">
-                    <a class="navbar-brand" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="btn" href="index.html" style="color: #fff;">Home</a>
                   </div>
                   <div class="col-1 my-auto">
                     <a class="btn" href="shop.html" style="color: #fff;">Shop</a>
                   </div>
-                  <div class="col-5 col-lg-4 my-auto">
+                  <div class="col-3 col-lg-2 my-auto">
                     <a class="btn" href="cart.html" style="color: #fff;">Cart</a>
                   </div>
                   <div class="d-none d-lg-block my-2 col-lg-4">
@@ -80,7 +83,6 @@
                             Sign Up
                           </a>
                           <a class="dropdown-item" href="wishlist.html">My orders</a>
-                          <a class="dropdown-item" href="account.html">Account settngs</a>
                         </div>
                       </div>
                   </div>
@@ -167,293 +169,74 @@
 
       <!-----------------Main------------------>
       <main class="container">
-        <!-------------Rows------------->
-        <div class="row">
-          <!--Alert-->
-          <div class="alert alert-success col-10 my-3 mx-auto" role="alert">
-            You have succesfully logged in!
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+        <!-----Breadcrump----->
+        <nav class="row" aria-label="breadcrumb">
+          <div class="col-12">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page">Settings</li>
+              <li class="breadcrumb-item"><a href="wishlist.html">Wishlist</a></li>
+            </ol>
           </div>
+        </nav>
 
-      
-          <!------Carousel------->
-          <div class="container d-none d-md-block">
-            <div id="Carousel1" class="carousel slide row" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#Carousel1" data-slide-to="0" class="active"></li>
-                <li data-target="#Carousel1" data-slide-to="1"></li>
-                <li data-target="#Carousel1" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="d-flex">
-                    <div class="col-8">
-                      <img src="Images/BMW.jpg" class="d-block w-100" alt="">
-                    </div>
-                    <div class="col-4">
-                      <h3>BMW F40</h3>
-                      <p>The most popular BMW car in this shop!</p>
-                      <p>Price: $9990</p>
-                      <button class="btn btn-primary">View</button>
-                      <button class="btn btn-secondary">Add to cart</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-flex">
-                    <div class="col-8">
-                      <img src="Images/BMW_2.jpg" class="d-block w-100" alt="">
-                    </div>
-                    <div class="col-4">
-                      <h3>BMW X 2017</h3>
-                      <p>Price: $7890</p>
-                      <button class="btn btn-primary">View</button>
-                      <button class="btn btn-secondary">Add to cart</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-flex">
-                    <div class="col-8">
-                      <img src="Images/Ferrari.jpg" class="d-block w-100" alt="">
-                    </div>
-                    <div class="col-4">
-                      <h3>Ferrari</h3>
-                      <p>Price: $34590</p>
-                      <button class="btn btn-primary">View</button>
-                      <button class="btn btn-secondary">Add to cart</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#Carousel1" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#Carousel1" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
+        <!----- Main Content ----->
+        <!--- User info --->
+        <!--1st name-->
+        <div class="row mb-2">
+          <div class="col-2 m-auto">
+            <h5>First name: </h5>
           </div>
-
-      
-
-          <!-----Cards----->
-          <div class="row border border-primary rounded-lg row my-4">
-            <br>
-            <h2 class="mx-auto col-12">New Arrivals</h2>
-            <br><br>
-
-            <div class="card col-12 col-md-6 col-lg-3" style="width: 18rem;">
-              <div>
-                <img src="Images/MiNote10Pro.png" class="card-img-top" alt="">
-              </div>
-              <div class="card-body d-flex flex-column justify-content-end">
-                <h5 class="card-title">Xiaomi Mi Note 10 Pro</h5>
-                <p class="card-text"><strong>Sale!<br></strong><del>Old price: $459</del><br>New price: $399</p>
-                <div class="d-flex">
-                  <a href="" class="btn btn-primary col-6">View</a>
-                  <a href="" class="btn btn-secondary col-6">Add to cart</a>
-                </div>
-              </div>
-            </div>
-  
-            <div class="card col-12 col-md-6 col-lg-3" style="width: 18rem;">
-              <div>
-                <img src="Images/SmartWatch.png" class="card-img-top" alt="">
-              </div>
-              <div class="card-body d-flex flex-column justify-content-end">
-                <h5 class="card-title">Smart Watch</h5>
-                <p class="card-text">Price: $189</p>
-                <div class="d-flex">
-                  <a href="" class="btn btn-primary col-6">View</a>
-                  <a href="" class="btn btn-secondary col-6">Add to cart</a>
-                </div>
-              </div>
-            </div>
-  
-            <div class="card col-12 col-md-6 col-lg-3" style="width: 18rem;">
-              <div>
-                <img src="Images/DelldesktopPC.png" class="card-img-top" alt="">
-              </div>
-              <div class="card-body d-flex flex-column justify-content-end">
-                <h5 class="card-title">Dell desktop PC</h5>
-                <p class="card-text">Price: $549</p>
-                <div class="d-flex">
-                  <a href="" class="btn btn-primary col-6">View</a>
-                  <a href="" class="btn btn-secondary col-6">Add to cart</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="card col-12 col-md-6 col-lg-3" style="width: 18rem;">
-              <div>
-                <img src="Images/HyundaiGenesis.png" class="card-img-top" alt="">
-              </div>
-              <div class="card-body d-flex flex-column justify-content-end">
-                <h5 class="card-title">Red Hyundai Genesis Car</h5>
-                <p class="card-text">Price: $7500</p>
-                <div class="d-flex">
-                  <a href="" class="btn btn-primary col-6">View</a>
-                  <a href="" class="btn btn-secondary col-6">Add to cart</a>
-                </div>
-              </div>
-            </div>
+          <div class="col-10">
+            <input class="form-control" type="text" placeholder="Anonymous" readonly>
           </div>
+        </div>
 
+        <!--last name-->
+        <div class="row mb-2">
+          <div class="col-2 m-auto">
+            <h5>Last name: </h5>
+          </div>
+          <div class="col-10">
+            <input class="form-control" type="text" placeholder="Anonymous" readonly>
+          </div>
+        </div>
+        
+        <!--Email-->
+        <div class="row mb-2">
+          <div class="col-2 m-auto">
+            <h5>E-Mail adress: </h5>
+          </div>
+          <div class="col-10">
+            <input class="form-control" type="text" placeholder="something@gmail.com" readonly>
+          </div>
+        </div>
 
-          
-          <div class="row border border-primary rounded-lg row my-4">
-            <br>
-                <h2 class="mx-auto col-12">Daily Deals</h2>
-            <br><br>
-      
-            <div class="card col-md-6 col-lg" style="width: 18rem;">
-              <div>
-                <img src="Images/HyundaiGenesis.png" class="card-img-top" alt="">
-              </div>
-              <div class="card-body d-flex flex-column justify-content-end">
-                <h5 class="card-title">Red Hyundai Genesis Car</h5>
-                <p class="card-text">Price: $7500</p>
-                <a href="" class="btn btn-primary">View</a>
-                <a href="" class="btn btn-secondary">Add to cart</a>
-              </div>
-            </div>
-      
-            <div class="card col-md-6 col-lg" style="width: 18rem;">
-              <div>
-                <img src="Images/MiNote10Pro.png" class="card-img-top" alt="">
-              </div>
-              <div class="card-body d-flex flex-column justify-content-end">
-                <h5 class="card-title">Xiaomi Mi Note 10 Pro</h5>
-                <p class="card-text"><strong>Sale!<br></strong><del>Old price: $459</del><br>New price: $399</p>
-                <a href="" class="btn btn-primary">View</a>
-                <a href="" class="btn btn-secondary">Add to cart</a>
-              </div>
-            </div>
-      
-            <div class="card col-12 col-md-4 col-lg" style="width: 18rem;">
-              <div>
-                <img src="Images/DelldesktopPC.png" class="card-img-top" alt="">
-              </div>
-              <div class="card-body d-flex flex-column justify-content-end">
-                <h5 class="card-title">Dell desktop PC</h5>
-                <p class="card-text">Price: $549</p>
-                <a href="" class="btn btn-primary">View</a>
-                <a href="" class="btn btn-secondary">Add to cart</a>
-              </div>
-            </div>
-      
-            <div class="card col-12 col-md-4 col-lg" style="width: 18rem;">
-              <div>
-                <img src="Images/HyundaiGenesis.png" class="card-img-top" alt="">
-              </div>
-              <div class="card-body d-flex flex-column justify-content-end">
-                <h5 class="card-title">Red Hyundai Genesis Car</h5>
-                <p class="card-text">Price: $7500</p>
-                <a href="" class="btn btn-primary">View</a>
-                <a href="" class="btn btn-secondary">Add to cart</a>
-              </div>
-            </div>
-            
-            <div class="card col-12 col-md-4 col-lg" style="width: 18rem;">
-              <div>
-                <img src="Images/SmartWatch.png" class="card-img-top" alt="">
-              </div>
-              <div class="card-body d-flex flex-column justify-content-end">
-                <h5 class="card-title">Smart Watch</h5>
-                <p class="card-text">Price: $189</p>
-                <a href="" class="btn btn-primary">View</a>
-                <a href="" class="btn btn-secondary">Add to cart</a>
-              </div>
-            </div>
+        <!--Card-->
+        <div class="row mb-2">
+          <div class="col-2 m-auto">
+            <h5>Card ID: </h5>
           </div>
-      
-      
-      
-          <div class="row border border-primary rounded-lg row my-4">
-            <br>
-                <h2 class="mx-auto col-12">Popular</h2>
-            <br><br>
-      
-            <div class="card col-12 col-md-4 col-lg-2" style="width: 18rem;">
-              <div>
-                <img src="Images/SmartWatch.png" class="card-img-top" alt="">
-              </div>
-              <div class="card-body d-flex flex-column justify-content-end">
-                <h5 class="card-title">Smart Watch</h5>
-                <p class="card-text">Price: $189</p>
-                <a href="" class="btn btn-primary">View</a>
-                <a href="" class="btn btn-secondary">Add to cart</a>
-              </div>
-            </div>
-      
-            <div class="card col-12 col-md-4 col-lg-2" style="width: 18rem;">
-              <div>
-                <img src="Images/MiNote10Pro.png" class="card-img-top" alt="">
-              </div>
-              <div class="card-body d-flex flex-column justify-content-end">
-                <h5 class="card-title">Xiaomi Mi Note 10 Pro</h5>
-                <p class="card-text"><strong>Sale!<br></strong><del>Old price: $459</del><br>New price: $399</p>
-                <a href="" class="btn btn-primary">View</a>
-                <a href="" class="btn btn-secondary">Add to cart</a>
-              </div>
-            </div>
-      
-            <div class="card col-12 col-md-4 col-lg-2" style="width: 18rem;">
-              <div>
-                <img src="Images/DelldesktopPC.png" class="card-img-top" alt="">
-              </div>
-              <div class="card-body d-flex flex-column justify-content-end">
-                <h5 class="card-title">Dell desktop PC</h5>
-                <p class="card-text">Price: $549</p>
-                <a href="" class="btn btn-primary">View</a>
-                <a href="" class="btn btn-secondary">Add to cart</a>
-              </div>
-            </div>
-      
-            <div class="card col-12 col-md-4 col-lg-2" style="width: 18rem;">
-              <div>
-                <img src="Images/HyundaiGenesis.png" class="card-img-top" alt="">
-              </div>
-              <div class="card-body d-flex flex-column justify-content-end">
-                <h5 class="card-title">Red Hyundai Genesis Car</h5>
-                <p class="card-text">Price: $7500</p>
-                <a href="" class="btn btn-primary">View</a>
-                <a href="" class="btn btn-secondary">Add to cart</a>
-              </div>
-            </div>
-            
-            <div class="card col-12 col-md-4 col-lg-2" style="width: 18rem;">
-              <div>
-                <img src="Images/SmartWatch.png" class="card-img-top" alt="">
-              </div>
-              <div class="card-body d-flex flex-column justify-content-end">
-                <h5 class="card-title">Smart watch</h5>
-                <p class="card-text">Price: $189</p>
-                <a href="" class="btn btn-primary">View</a>
-                <a href="" class="btn btn-secondary">Add to cart</a>
-              </div>
-            </div>
-      
-            <div class="card col-12 col-md-4 col-lg-2" style="width: 18rem;">
-              <div>
-                <img src="Images/DelldesktopPC.png" class="card-img-top" alt="">
-              </div>
-              <div class="card-body d-flex flex-column justify-content-end">
-                <h5 class="card-title">Dell desktop PC</h5>
-                <p class="card-text">Price: $549</p>
-                <a href="" class="btn btn-primary">View</a>
-                <a href="" class="btn btn-secondary">Add to cart</a>
-              </div>
-            </div>
+          <div class="col-10">
+            <input class="form-control" type="text" placeholder="14**-****-****-****" readonly>
           </div>
-            <!--Cards/end-->
+        </div>
+        
+        <!--Adress-->
+        <div class="row mb-2">
+          <div class="col-2 m-auto">
+            <h5>Shipping adress: </h5>
           </div>
+          <div class="col-10">
+            <input class="form-control" type="text" placeholder="USA, New York City, Buffalo Avenue" readonly>
+          </div>
+        </div>
 
+        <!--Edit profile | button-->
+        <div class="row mb-2">
+          <div class="col-2 mx-auto">
+            <button class="btn btn-dark">Edit profile</button>
+          </div>
+        </div>
       </main>
 
 
